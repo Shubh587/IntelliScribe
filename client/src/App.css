@@ -1,0 +1,801 @@
+/*
+Global Styles
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+Home Page -------------------------------------------------
+*/
+.welcomePage .welcomePageBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+/*
+Doctor Registration Page ----------------------------------
+*/
+
+.DoctorRegistrationPage .body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+.DoctorRegistrationPage .form {
+    max-width: 200 px;
+    margin: 2rem auto;
+    border: 2px solid #E74C3C;
+    padding: 2rem;
+    text-align: center;
+}
+
+.DoctorRegistrationPage .form label{
+    display: block;
+}
+
+.DoctorRegistrationPage .form .createProfileBtn{
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.DoctorRegistrationPage .title {
+    text-align: center;
+}
+
+/*
+Login Page -----------------------------------------------
+*/
+.loginPage .body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.loginPage .body .form label{
+    display: block;
+    margin: 10px;
+}
+
+.loginPage .body .form{
+    max-width: 200 px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.loginPage .form .loginButton{
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+/*
+Patient Registration Page -----------------------------------------------
+*/
+
+
+.PatientRegistrationPage .body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.PatientRegistrationPage label {
+    display: block;
+}
+
+.PatientRegistrationPage Field {
+    width: 200px;
+}
+
+.PatientRegistrationPage .createProfileBtn {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+/*
+Model Page -------------------------------------------------
+*/
+
+.modelPage .body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.modelPage .submitVisit {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.modelPage .startBtn {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.modelPage .stopBtn {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.modelPage .resetBtn {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+/*
+Patient Lookup Page --------------------------------------------------
+*/
+
+.PatientLookupPage .body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.PatientLookupPage th {
+    padding: 23px;
+}
+
+.PatientLookupPage td {
+    padding: 23px;
+}
+
+.PatientLookupPage .searchPatientButton {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+/*
+Visit Page ------------------------------------------------
+*/
+
+.visitInfoPage .body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.visitInfoPage th {
+    padding: 23px;
+}
+
+.visitInfoPage td {
+    padding: 23px;
+}
+
+.visitInfoPage .backBtn {
+    background-color: #343050;
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+/*
+Doctor Home Page -----------------------------------------
+*/
+
+.DoctorHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.NewVisitContainer .NewVisitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.PatientLookupContainer .PatientLookupBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+    font-size: 28px;   
+}
+
+/*
+Default Navbar ---------------------------------------------------
+*/
+
+.DefaultNavbar {
+    background-color: #021E39;
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.DefaultNavbar .leftSide {
+    flex: 33%;
+}
+
+.DefaultNavbar .leftSide #hidden{
+    display: flex;
+}
+
+.DefaultNavbar .leftSide .homeBtnContainer .homeBtn{
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+
+.DefaultNavbar .leftSide .openBtnContainer{
+    display: none;
+    margin-left: 20px;
+}
+
+.DefaultNavbar .middle {
+    flex: 33%;
+}
+
+.DefaultNavbar .middle #hidden{
+    display: flex;
+}
+
+.DefaultNavbar .middle .doctorRegisterBtnContainer .doctorRegisterBtn{
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.DefaultNavbar .rightSide {
+    flex: 0%;
+}
+
+.DefaultNavbar .rightSide #hidden{
+    display: flex;
+}
+
+.DefaultNavbar .rightSide .loginBtnContainer .loginBtn{
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+
+/*
+Doctor Navbar ------------------------------------------------
+*/
+
+.DoctorNavbar {
+    background-color: #021E39;
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.DoctorNavbar .leftSide {
+    flex: 33%;
+}
+
+.DoctorNavbar .leftSide .doctorHomeBtnContainer .doctorHomeBtn {
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.DoctorNavbar .leftSide #hidden{
+    display: flex;
+}
+
+
+.DoctorNavbar .leftSide .openBtnContainer{
+    display: none;
+    margin-left: 20px;
+}
+
+.DoctorNavbar .middle {
+    flex: 38%;
+}
+
+.DoctorNavbar .middle #hidden{
+    display: flex;
+}
+
+.DoctorNavbar .middle .patientRegistrationBtnContainer .patientRegistrationBtn{
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+.DoctorNavbar .rightSide {
+    flex: 0%;
+}
+
+.DoctorNavbar .rightSide #hidden{
+    display: flex;
+}
+
+.DoctorNavbar .rightSide .logoutBtnContainer .logoutBtn{
+    position: relative;
+    background-color: #f6d8ac;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        background-color: #3498DB;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .DefaultNavbar .leftSide .homeBtnContainer .homeBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .leftSide .doctorHomeBtnContainer .doctorHomeBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .DefaultNavbar .leftSide .homeBtnContainer .homeBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .leftSide .doctorHomeBtnContainer .doctorHomeBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .DefaultNavbar .middle .doctorRegisterBtnContainer .doctorRegisterBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .middle .patientRegistrationBtnContainer .patientRegistrationBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .DefaultNavbar .middle .doctorRegisterBtnContainer .doctorRegisterBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .middle .patientRegistrationBtnContainer .patientRegistrationBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .DefaultNavbar .rightSide .loginBtnContainer .loginBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .rightSide .logoutBtnContainer .logoutBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .DefaultNavbar .rightSide .loginBtnContainer .loginBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .DoctorNavbar .rightSide .logoutBtnContainer .logoutBtn{
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .DefaultNavbar .leftSide .openBtnContainer{
+        display: flex;
+    }
+
+    .DefaultNavbar .leftSide .homeBtnContainer .homeBtn{
+        display: none;
+    }
+
+    .DefaultNavbar .middle .doctorRegisterBtnContainer .doctorRegisterBtn{
+        display: none;
+    }
+
+    .DefaultNavbar .rightSide .loginBtnContainer .loginBtn{
+        display: none;
+    }
+
+    .DefaultNavbar .leftSide #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DefaultNavbar .middle #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DefaultNavbar .rightSide #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: auto;
+        max-height: 530px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DoctorNavbar .leftSide .openBtnContainer{
+        display: flex;
+    }
+
+    .DoctorNavbar .leftSide .openBtn {
+        position: relative;
+        background-color: #f6d8ac;
+        border: none;
+        font-size: 28px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+
+    .DoctorNavbar .leftSide .doctorHomeBtnContainer .doctorHomeBtn{
+        display: none;
+    }
+
+    .DoctorNavbar .middle .patientRegistrationBtnContainer .patientRegistrationBtn{
+        display: none;
+    }
+
+    .DoctorNavbar .rightSide .logoutBtnContainer .logoutBtn{
+        display: none;
+    }
+
+    .DoctorNavbar .leftSide #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DoctorNavbar .middle #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DoctorNavbar .rightSide #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: auto;
+        max-height: 530px;
+        width: 100%;
+        background-color: #021E39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
