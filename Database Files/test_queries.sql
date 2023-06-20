@@ -1,0 +1,1 @@
+SELECT first_name, last_name, streetname, city, state, zipcode, sex, gender, age, date_of_birth, phone_number, profession FROM Patient WHERE patient_email = 's@g';

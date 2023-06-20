@@ -1,0 +1,1 @@
+SELECT * FROM Patient as p Natural join Visit as v WHERE v.patient_email = "email456" and v.doctor_email="test123"
