@@ -1,0 +1,14 @@
+Project Work Section:
+1. Design Overview:
+	a. Registration Form
+	b. Login System - using bcrpyt and JWT auth to hash passcodes and login users
+	c. Registration for patients
+	d. AWS Account Setup. IAM User Setup - policies set (S3, SNS, Admin, ComprehendMedical)
+	e. Model System - 	Client: Records audio information and sends transcript to the backend for processing
+						Server: Creates AWS API Endpoint, Uses ComprehendMedical API to detect medical entities, Stores important info from audio conversation into database 
+	f. Patient Lookup: Displays patient info from database that displays their basic, demographic, billing, insurance, pharmacy info, and visit info with previous doctors
+	g. FIGURES: Diagram to show high-level design of the web application
+	
+2. Database Setup:
+	a. Use MYSQL relational database to store doctor and patient data 
+	
