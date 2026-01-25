@@ -2125,3 +2125,7 @@ UPDATED_NLP_COURSE/moviereviews/pos/cv996_11592.txt
 UPDATED_NLP_COURSE/moviereviews/pos/cv997_5046.txt
 UPDATED_NLP_COURSE/moviereviews/pos/cv998_14111.txt
 UPDATED_NLP_COURSE/moviereviews/pos/cv999_13106.txt
+
+# Dependencies
+node_modules/
+.cache/
